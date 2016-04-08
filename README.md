@@ -22,11 +22,12 @@ $ cd ./goo && bundle install && rake install
   $ goo call webmasters.sitemaps.get -p\
     feedpath:'http://example.com'\
     siteUrl: 'http://example.com/sitemap.xml'
-  ```  
+  ```
+  call **reply** will be printed as **YAML** to **STDOUT**
 
 ## Environment
   * **$GOO_EMAIL** or **-e** option - app service email
-  * **$GOO_P12KEYFILE** or **-p** option - P12 key file path
+  * **$GOO_P12KEYFILE** or **-k** option - P12 key file path
 
 ## Development
 
@@ -36,4 +37,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/goo. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/shemusok/goo. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
