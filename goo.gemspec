@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Shem Ming"]
   spec.email         = ["shemusok@gmail.com"]
 
-  spec.summary       = %q{Tiny command line Google API client.}
+  spec.summary       = %q{tiny command line Google API client.}
   spec.description   = %q{Just 4 fun.}
-  # spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/shemusok/goo"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.

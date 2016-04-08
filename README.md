@@ -10,19 +10,25 @@ $ cd ./goo && bundle install && rake install
 ## Usage
 
 * Command line options help:
+
   ```bash
   $ goo help
   ```
+
 * Get api/resources/method description:
-  ```
+
+  ```bash
   $ goo info webmasters.sitemaps.get
   ```
+
 * Call method:
+
   ```bash
   $ goo call webmasters.sitemaps.get -p\
     feedpath:'http://example.com'\
     siteUrl: 'http://example.com/sitemap.xml'
   ```
+  
   call **reply** will be printed as **YAML** to **STDOUT**
 
 ## Environment
